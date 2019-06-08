@@ -12,7 +12,11 @@ public class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewD
 	weak var countryPickerDelegate: FPNCountryPickerDelegate?
 	open var showPhoneNumbers: Bool = true
 
-	override init(frame: CGRect) {
+	public init() {
+		setup()
+	}
+	
+	override public init(frame: CGRect) {
 		super.init(frame: frame)
 
 		setup()
