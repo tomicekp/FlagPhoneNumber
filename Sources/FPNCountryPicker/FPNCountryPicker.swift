@@ -2,7 +2,7 @@ import UIKit
 
 open class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource {
 
-	var countries: [FPNCountry]! {
+	public var countries: [FPNCountry]! {
 		didSet {
 			reloadAllComponents()
 		}
