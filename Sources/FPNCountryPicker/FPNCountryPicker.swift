@@ -13,6 +13,7 @@ public class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewD
 	open var showPhoneNumbers: Bool = true
 
 	public init() {
+		super.init(frame: .zero)
 		setup()
 	}
 	
