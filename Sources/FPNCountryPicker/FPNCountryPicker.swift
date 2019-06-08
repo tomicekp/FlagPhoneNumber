@@ -1,6 +1,6 @@
 import UIKit
 
-open class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource {
+public class FPNCountryPicker: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource {
 
 	public var countries: [FPNCountry]! {
 		didSet {
